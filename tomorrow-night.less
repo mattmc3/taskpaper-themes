@@ -1,34 +1,37 @@
-// JellyBean Taskpaper Theme, v1.0
+// Tomorrow Night Taskpaper Theme, v1.0
 // https://github.com/mattmc3/taskpaper-themes
 // Tested with Taskpaper 3.7
 
-// colors from: https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/xrdb/Jellybeans.xrdb
+// colors from:
+//   - https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/xrdb/Tomorrow%20Night.xrdb
+//   - https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/xrdb/Tomorrow%20Night%20Bright.xrdb
 // to make a new theme with different colors, grab a different .xrdb file from this repo
 // and change the ansi color values here. Consider this top part generated code.
 
-@ansi_0_color: #929292;
-@ansi_1_color: #e27373;
-@ansi_2_color: #94b979;
-@ansi_3_color: #ffba7b;
-@ansi_4_color: #97bedc;
-@ansi_5_color: #e1c0fa;
-@ansi_6_color: #00988e;
-@ansi_7_color: #dedede;
-@ansi_8_color: #bdbdbd;
-@ansi_9_color: #ffa1a1;
-@ansi_10_color: #bddeab;
-@ansi_11_color: #ffdca0;
-@ansi_12_color: #b1d8f6;
-@ansi_13_color: #fbdaff;
-@ansi_14_color: #1ab2a8;
+@ansi_0_color: #000000;
+@ansi_1_color: #cc6666;
+@ansi_2_color: #b5bd68;
+@ansi_3_color: #f0c674;
+@ansi_4_color: #81a2be;
+@ansi_5_color: #b294bb;
+@ansi_6_color: #8abeb7;
+@ansi_7_color: #ffffff;
+@ansi_8_color: #000000;
+@ansi_9_color: #d54e53;
+@ansi_10_color: #b9ca4a;
+@ansi_11_color: #e7c547;
+@ansi_12_color: #7aa6da;
+@ansi_13_color: #c397d8;
+@ansi_14_color: #70c0b1;
 @ansi_15_color: #ffffff;
-@background_color: #121212;
-@bold_color: #ffffff;
-@cursor_color: #ffa560;
-@cursor_text_color: #ffffff;
-@foreground_color: #dedede;
-@selected_text_color: #f4f4f4;
-@selection_color: #474e91;
+
+@background_color: #1d1f21;
+@bold_color: #c5c8c6;
+@cursor_color: #c5c8c6;
+@cursor_text_color: #1d1f21;
+@foreground_color: #c5c8c6;
+@selected_text_color: #c5c8c6;
+@selection_color: #373b41;
 
 // =============================================================================
 
@@ -60,7 +63,7 @@
 @base-font-size: 16;
 @user-font-size: $USER_FONT_SIZE;
 @ui-scale: @user-font-size / @base-font-size;
-@font-family: Helvetica;
+@font-family: "Verdana";
 @line-height-multiple: 1.1;
 @syntax-hue: 220;
 
@@ -104,7 +107,7 @@ editor {
 
 item[data-type="project"] {
     font-weight: semi-bold;
-    color: @green;
+    color: @blue-bright;
     font-size: @user-font-size * 1.2;
 }
 
@@ -127,9 +130,9 @@ item[data-today] {
     font-size: @user-font-size;
     font-style: normal;
     font-weight: normal;
-    color: @magenta;
+    color: @green-bright;
     > run[tag] {
-        color: fade(@magenta, 60%);
+        color: @green;
     }
 }
 
@@ -138,34 +141,34 @@ item[data-high],
 item[data-prio] {
     color: @red-bright;
     > run[tag] {
-        color: fade(@red-bright, 60%);
+        color: @red;
     }
 }
 item[data-next] {
-    color: @blue;
+    color: @magenta-bright;
     > run[tag] {
-        color: fade(@blue, 60%);
+        color: @magenta;
     }
 }
 
 item[data-overdue] {
    color: @red-bright;
     > run[tag] {
-        color: fade(@red-bright, 60%);
+        color: @red;
     }
 }
 
 item[data-due] {
    color: @yellow-bright;
     > run[tag] {
-        color: fade(@yellow-bright, 60%);
+        color: @yellow;
     }
 }
 
 item[data-waiting] {
-   color: @red;
+   color: @light-grey;
     > run[tag] {
-        color: fade(@red, 60%);
+        color: @grey;
     }
 }
 
@@ -191,7 +194,7 @@ item[data-done] {
 
 run[link] {
     cursor: pointer;
-    color: @blue-bright;
+    color: @blue;
 }
 
 // represents the lead dash before tasks
@@ -207,5 +210,5 @@ run[tag] {
     font-size: @user-font-size;
     font-style: italic;
     font-weight: normal;
-    color: fade(@cyan-bright, 50%);
+    color: @cyan-bright;
 }

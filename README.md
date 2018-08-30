@@ -8,10 +8,13 @@ Some of my themes for the amazing [TaskPaper][1] app.
 
 ![Jellybeans sample with dark sidebar][jellybeans-dark]
 
-### Installation
+## Tomorrow Night Theme
 
-- From your Mac, open the Terminal application, and run the following single
-command to download the theme:
+![Tomorrow night sample][tomorrow-night]
+
+## Installation
+
+- From your Mac, open the Terminal application, and run the following single command to download the theme:
 
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/mattmc3/taskpaper-themes/master/install.sh)
@@ -38,3 +41,4 @@ Big thanks to other theme contributers, especially Atom One Dark. More themes ca
 [2]: http://support.hogbaysoftware.com/t/taskpaper-extensions-wiki/1628
 [jellybeans]: https://raw.githubusercontent.com/mattmc3/taskpaper-themes/master/resources/jellybeans-sample.png
 [jellybeans-dark]: https://raw.githubusercontent.com/mattmc3/taskpaper-themes/master/resources/jellybeans-sample-dark.png
+[tomorrow-night]: https://raw.githubusercontent.com/mattmc3/taskpaper-themes/master/resources/tomorrow-night-sample.png

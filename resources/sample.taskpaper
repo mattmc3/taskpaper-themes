@@ -1,0 +1,32 @@
+Tomorrow Night Theme:
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	
+	A simple todo list:
+		- This is a thing I did already @done(2018-08-29)
+		- Do this one thing now
+		- Followed by this one
+		- And then finally this one
+	
+	Nested Projects Sample:
+		Subproject 1:
+			Notes for this project
+		Subproject 2:
+			- Task0 @done(2018-08-29)
+			- Task1 @today
+			- Task2 @next
+			- Task3 @waiting
+			- Task4 @due(2020-01-01)
+			- Task5 @overdue
+			- Task6 - send email re: Dino to @fred @wilma @barney @betty
+		Subproject 3:
+			Link to my github: https://github.com/mattmc3
+		Collapsed subproject:
+			Now you see me...
+
+Some other project:
+	Hidden away in the screenshot, this project is top secret.
