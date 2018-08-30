@@ -10,12 +10,17 @@ Some of my themes for the amazing [TaskPaper][1] app.
 
 ### Installation
 
-From your Mac, open the Terminal application, and run the following command:
+- From your Mac, open the Terminal application, and run the following single
+command to download the theme:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/mattmc3/taskpaper-themes/master/jellybeans.less \
      > ~/Library/Containers/com.hogbaysoftware.TaskPaper3/Data/Library/Application\ Support/TaskPaper/StyleSheets/jellybeans.less
 ```
+
+- Close Terminal.
+
+- From TaskPaper, open the _Window_ menu, and choose the _Stylesheet_ submenu and pick jellybeans.
 
 ### Notes
 
