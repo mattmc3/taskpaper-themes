@@ -14,7 +14,7 @@ From your Mac, open the Terminal application, and run the following command:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/mattmc3/taskpaper-themes/master/jellybeans.less \
-"~/Library/Containers/com.hogbaysoftware.TaskPaper3/Data/Library/Application Support/TaskPaper/StyleSheets/jellybeans.less"
+     > ~/Library/Containers/com.hogbaysoftware.TaskPaper3/Data/Library/Application\ Support/TaskPaper/StyleSheets/jellybeans.less
 ```
 
 ### Notes
