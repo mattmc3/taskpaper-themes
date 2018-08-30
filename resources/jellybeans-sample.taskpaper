@@ -1,13 +1,12 @@
 Jellybeans Theme:
-
-	Here are some sample notes. As you can see, the text for notes is all in clear, light text on a dark background. Some other themes relegate free text notes to obscure formatting that makes them look unappealing. One of the reasons I created this theme was to make sure that large blocks of notes still look wonderful.
-
+	Here are some sample notes. As you can see, the text for notes is light text on a dark background. Some other themes do not put emphasis on clean, simple formatting for notes, opting instead for obscure formatting that makes notes look unappealing. One of the reasons I created this theme was to make sure that large blocks of notes still look wonderful.
+	
 	A simple todo list:
 		- This is a thing I did already @done(2018-08-29)
 		- Do this one thing now
 		- Followed by this one
 		- And then finally this one
-
+	
 	Nested Projects Sample:
 		Subproject 1:
 			Notes for this project
@@ -21,6 +20,8 @@ Jellybeans Theme:
 			- Task6 - send email re: Dino to @fred @wilma @barney @betty
 		Subproject 3:
 			Link to my github: https://github.com/mattmc3
+		Collapsed subproject:
+			Now you see me...
 
 Some other project:
 	Hidden away in the screenshot, this project is top secret.
