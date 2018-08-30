@@ -13,8 +13,8 @@ function main() {
         if [[ -d "$d" ]]; then
             found=1
             echo "Installing themes..."
-            curl -fsSL "$gh_url/jellybeans.less" > "$d/jellybeans.less"
-            curl -fsSL "$gh_url/tomorrow-night.less" > "$d/tomorrow-night.less"
+            curl -fsSL "$gh_url/jellybeans.less" > "$d/StyleSheets/jellybeans.less"
+            curl -fsSL "$gh_url/tomorrow-night.less" > "$d/StyleSheets/tomorrow-night.less"
         fi
     done
 
