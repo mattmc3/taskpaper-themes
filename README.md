@@ -26,12 +26,14 @@ bash <(curl -fsSL https://raw.githubusercontent.com/mattmc3/taskpaper-themes/mas
 
 ### Notes
 
-To make the sidebar theme dark, remove the leading slashes (ie: uncomment) the following in jellybeans.less:
+To make the sidebar theme dark or light, remove the leading slashes (ie: uncomment) the following
+in your stylesheet:
 
 ```css
 window {
-    // uncomment line below for a dark sidebar
+    // uncomment whichever line below for a dark or light sidebar
     // appearance: NSAppearanceNameVibrantDark;
+    // appearance: NSAppearanceNameVibrantLight;
 }
 ```
 
