@@ -5,7 +5,7 @@ function main() {
         "$HOME/Library/Application Support/TaskPaper"
         "$HOME/Library/Containers/com.hogbaysoftware.TaskPaper3/Data/Library/Application Support/TaskPaper"
     )
-    local gh_url="https://raw.githubusercontent.com/mattmc3/taskpaper-themes/master"
+    local gh_url="https://raw.githubusercontent.com/mattmc3/taskpaper-themes/main"
     local found=
 
     for d in "${taskpaper_dirs[@]}"
